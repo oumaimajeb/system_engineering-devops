@@ -1,2 +1,6 @@
 #!/bin/bash
-echo $BREATH
+result=1
+for ((i=0; i < LOVE; i++)); do
+  result=$((result * BREATH))
+done
+echo $result
