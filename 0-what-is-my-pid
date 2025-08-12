@@ -1,5 +1,5 @@
-#!/bin/bash
-echo "$$"
-#!/bin/bash
-echo "$$"
+#!/usr/bin/env bash
+# This script prints its own process ID
+echo $$
+
 
