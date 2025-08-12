@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Lists files in current dir and displays part after first dash
+# List files in current directory; if filename has a dash (-), print part after first dash, else print whole filename
 
 for file in *; do
-  # Skip if it does not contain a dash
   if [[ "$file" == *-* ]]; then
-    # Extract and print part after first dash
     echo "${file#*-}"
+  else
+    echo "$file"
   fi
 done
