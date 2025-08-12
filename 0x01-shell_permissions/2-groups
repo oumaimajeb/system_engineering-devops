@@ -1,3 +1,2 @@
-git add 2-groups
-git commit -m "Add 2-groups script to print user groups"
-git push origin main
+#!/bin/bash
+groups
